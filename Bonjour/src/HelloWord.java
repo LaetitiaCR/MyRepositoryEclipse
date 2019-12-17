@@ -34,10 +34,10 @@ public class HelloWord {
 		
 		/**
 		* @author Laëti
-		* @version  
+		* 
 		*/
 		
-		System.out.println("Hello World !!!");
+		System.out.println("Hello World By Laeti !!");
 	}
 }
 
