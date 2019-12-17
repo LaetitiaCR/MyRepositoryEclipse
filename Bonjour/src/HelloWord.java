@@ -2,6 +2,30 @@
 	*@author Laëtitia
 	*@version 2019
 	*@param args arguments
+	*
+	*
+
+	*
+
+	*@throws
+
+	*
+
+ 	*@version
+
+ 	*@see
+
+ 	*@since
+
+ 	*@serial
+
+	*
+
+	*
+	*
+	*
+	*
+	*
 	*/
 public class HelloWord {
 	
