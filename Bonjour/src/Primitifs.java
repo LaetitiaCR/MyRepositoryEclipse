@@ -2,12 +2,16 @@
 public class Primitifs {
 	public static void main(String[] args) {
 		
+		//chaine de caractères
+		String strChaine;
+		
+		
+		//8 primitifs
 		
 		//vrai ou faux
 		boolean bool;
 		
-		//chaine de caractères
-		String strChaine;
+		
 		
 		//un caractère
 		char cara;
