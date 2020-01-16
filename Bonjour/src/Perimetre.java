@@ -3,9 +3,20 @@ import java.util.Scanner;
 public class Perimetre {
 
 	
-	public static calculPerimetre(){
+	public static float calculPerimetre(int pintScanInputlongueur, int pintScanInputlargeur){
+		
+		
+		float perimetre;
+		perimetre = (pintScanInputlongueur + pintScanInputlargeur)*2;
+		
+		//System.out.println(perimetre);
+		return perimetre;
+	}
+	
+	public static void main(String[] args) {
+		
 		Scanner scan  = new Scanner(System.in);
-			
+		
 		System.out.println("Insérer un chiffre :");
 		
 		
@@ -17,13 +28,10 @@ public class Perimetre {
 		
 		scan.close();
 		
-		float perimetre;
-		perimetre = (intScanInputlongueur + intScanInputlargeur)*2;
+		Float returnPerimetre;
 		
-		System.out.println(perimetre);
-	}
-	
-	public static void main(String[] args) {
+		returnPerimetre = calculPerimetre(intScanInputlongueur, intScanInputlargeur);
+		System.out.println(returnPerimetre);
 		
 	}
 }
